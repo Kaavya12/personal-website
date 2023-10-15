@@ -64,6 +64,9 @@
     height: 40vh;
 }
 
+.about-head {
+    margin-bottom: 5vh;
+}
 
 #carousel {
     display: flex;
