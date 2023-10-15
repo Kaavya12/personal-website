@@ -1,0 +1,232 @@
+:root {
+    --primary: #18005C;
+    --secondary: #D6D6FF;
+    --secondary-dark: rgb(12, 12, 90);
+    --text: #470057;
+    --accent: #0032A0;
+    --background: #fff;
+    --b: 0.25rem;     /* the border thickness*/
+    --g: 0.5rem;    /* the gap */
+    --c: #4ECDC4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-padding: 10vh;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 2.5rem;
+}
+
+.project-page-head {
+    text-align: center;
+}
+
+/* .data-obj {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+    min-height: 50vh;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5%;
+    border: 2px solid black;
+}
+
+.data-obj:hover {
+    color: white;
+    outline: var(--b) solid var(--text);
+    outline-offset: var(--g);;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .6s ease-in-out;
+    padding: 2%;
+}
+
+.data-obj:hover > .display-on-hover {
+    display: block;
+}
+
+.project-head{
+    font-weight: 900;
+}
+
+.display-on-hover {
+    display: none;
+}
+
+.project-links {
+    color: white;
+}
+
+.project-links:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+#group1 {
+    color: var(--text);
+    background-image: url("./assets/Group\ 10.svg");
+    background-size: cover;
+}
+
+#group1:hover {
+    color: white;
+    background: var(--text)
+}
+
+
+#group2 {
+    color: var(--accent);
+    background-image: url("./assets/Group\ 9.svg");
+    background-size: cover;
+}
+
+#group2:hover {
+    color: white;
+    background: var(--accent)
+}
+
+
+#group3 {
+    color: var(--text);
+    background-image: url("./assets/Group\ 8.svg");
+    background-size: cover;
+}
+
+#group3:hover {
+    color: white;
+    background: var(--text)
+}
+
+
+#group4 {
+    color: var(--accent);
+    background-image: url("./assets/Group\ 7.svg");
+    background-size: cover;
+}
+
+#group4:hover {
+    color: white;
+    background: var(--accent)
+}
+
+
+#group5 {
+    color: var(--text);
+    background-image: url("./assets/Group\ 6.svg");
+    background-size: cover;
+}
+
+#group5:hover {
+    color: white;
+    background: var(--text)
+} */
+
+
+.data-obj {
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+    min-height: 50vh;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5%;
+}
+
+.data-obj:hover {
+    outline: var(--b) solid var(--text);
+    outline-offset: var(--g);;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .6s ease-in-out;
+    padding: 2%;
+}
+
+.data-obj:hover > .display-on-hover {
+    display: block;
+}
+
+.project-head{
+    font-weight: 900;
+}
+
+.display-on-hover {
+    display: none;
+}
+
+.project-links {
+    color: white;
+}
+
+.project-links:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+#group1 {
+    background-image: url("./assets/Group\ 1.svg");
+    background-size: cover;
+}
+
+#group1:hover {
+    background: var(--text)
+}
+
+
+#group2 {
+    background-image: url("./assets/Group\ 2.svg");
+    background-size: cover;
+}
+
+#group2:hover {
+    background: var(--accent)
+}
+
+
+#group3 {
+    background-image: url("./assets/Group\ 3.svg");
+    background-size: cover;
+}
+
+#group3:hover {
+    background: var(--text)
+}
+
+
+#group4 {
+    background-image: url("./assets/Group\ 4.svg");
+    background-size: cover;
+}
+
+#group4:hover {
+    background: var(--accent)
+}
+
+
+#group5 {
+    background-image: url("./assets/Group\ 5.svg");
+    background-size: cover;
+}
+
+#group5:hover {
+    background: var(--text)
+}

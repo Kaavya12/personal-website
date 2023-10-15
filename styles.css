@@ -1,0 +1,125 @@
+:root {
+    --primary: #18005C;
+    --secondary: #D6D6FF;
+    --secondary-dark: rgb(12, 12, 90);
+    --text: #470057;
+    --accent: #0032A0;
+    --background: #fff;
+}
+  
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-padding: 10vh;
+}
+
+.nav-link {
+    color: var(--text) !important;
+    margin: 0 10px 0 10px;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline var(--text);
+    text-underline-offset: 3px;
+    /* color: var(--background) !important; */
+}
+
+.navbar-toggler-icon {
+    color: var(--text);
+}
+
+.jumbotron {
+    background: linear-gradient(120deg, var(--primary), var(--text), var(--secondary-dark));
+    height: 100vh;
+    color: var(--background);
+    font-family: 'Poppins';
+}
+
+#name {
+    font-weight: bolder;
+}
+
+.headerSvg {
+    position: absolute;
+}
+
+#landingImg {
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+}
+
+.container {
+    font-family: 'Poppins';
+    color: var(--text);
+}
+
+.about {
+    height: 40vh;
+}
+
+
+#carousel {
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* Hide the scrollbar for MS Edge */
+    scrollbar-width: none; /* Hide the scrollbar for Mozilla Firefox */
+  
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    width: 100vw;
+    height: fit-content;
+    background: var(--secondary);
+    /*border: solid #F3E6FF .5px;*/
+}
+
+#carousel::-webkit-scrollbar {
+    /* display: none; Hide the scrollbar on Webkit based browsers (Chrome, Safari, etc) */
+    -webkit-overflow-scrolling: touch; /* On touch screens the content continues to scroll for a while after finishing the scroll gesture */
+}
+
+.item {
+    min-width: 300px;
+    min-height: 30vh;
+    
+    height: 30vh;
+    margin: 40px;
+
+    font-size: 5em;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+    /*border: solid 1px black; */
+    background-color: #A4D9FF;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.carousel-text {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+}
+
+#carouselTop {
+    /* width: 100vw; */
+    padding: 0;
+    /* margin-bottom: 30px; */
+}
+
+.container-bg {
+    background: var(--secondary);
+    font-family: 'Poppins';
+    color: var(--text);
+}
+
+#carouselTop {
+    padding-top: 30px;
+}
