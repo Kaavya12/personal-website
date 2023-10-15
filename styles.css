@@ -115,6 +115,7 @@
 }
 
 .container-bg {
+    margin-top: 5vh;
     background: var(--secondary);
     font-family: 'Poppins';
     color: var(--text);
