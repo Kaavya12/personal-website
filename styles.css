@@ -23,7 +23,6 @@
     margin: 0 10px 0 10px;
 }
 
-
 .nav-link:hover {
     text-decoration: underline var(--text);
     text-underline-offset: 3px;
@@ -42,7 +41,8 @@
 }
 
 #name {
-    font-weight: bolder;
+    font-weight: 800;
+    letter-spacing: 1.5px;
 }
 
 .headerSvg {

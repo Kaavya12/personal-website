@@ -165,7 +165,8 @@
 }
 
 .project-head{
-    font-weight: 900;
+    font-weight: 600;
+    /* letter-spacing: 1.5px; */
 }
 
 .display-on-hover {
